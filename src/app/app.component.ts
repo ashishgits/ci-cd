@@ -4,7 +4,7 @@ import { GreetComponent } from './greet/greet.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, GreetComponent],
+  imports: [GreetComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
